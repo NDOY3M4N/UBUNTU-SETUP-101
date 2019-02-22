@@ -1,0 +1,45 @@
+{
+    "ensure_newline_at_eof_on_save": true,
+    "file_exclude_patterns":
+    [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.sublime-workspace"
+    ],
+    "font_face": "Fira Code",
+    "font_size": 12,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "MarkdownEditing",
+        "Vintage"
+    ],
+    "translate_tabs_to_spaces": true
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+    "margin": 0,
+    "scroll_past_end": true,
+    "show_definitions": true,
+    "material_theme_accent_brba": true,
+    "material_theme_big_fileicons": true,
+    "material_theme_bullet_tree_indicator": true,
+    "material_theme_contrast_mode": true,
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "color_scheme": "Packages/Predawn/predawn.tmTheme",
+}
