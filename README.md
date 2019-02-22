@@ -118,3 +118,25 @@ De retour dans Sublime Text 3, on installe le package ```Anaconda```. Dans les p
 ```
 
 Voilà c'est terminé. Feel the power of the __ANACONDA__
+
+## Git 101
+
+- Pour l'installation :
+```bash
+sudo apt install git
+```
+- Configuration :
+```bash
+git config --global user.name "NDOY3M4N"
+git config --global user.email pa.ndoye@outlook.fr
+```
+- Quelques commandes utiles :
+```bash
+git init # A taper sur un répertoire pour créer un REPO local
+git add . #  Pour ajouter les fichiers/dossiers dans notre REPO local
+git add -p # Ajoute les fichiers modifiés
+git commmit -m "message" # Pour confirm les modifs qu l'on vient de faire
+git remote add origin https://github.com/NDOY3M4N/UBUNTU-SETUP-101.git # Connexion à un REPO distant
+git push -u origin master # LOCAL vers SERVEUR GITHUB
+git pull -u origin master # SERVEUR GITHUB vers LOCAL
+```
