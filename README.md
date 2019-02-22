@@ -6,6 +6,7 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 - Mettre à jour le système
 
 ![alt update](img/install_update.png)
+
 Yup bro ! Voici la commande pour installer les dernières mises à jours
 ```bash
 sudo apt  update && sudo apt upgrade
