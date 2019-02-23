@@ -1,6 +1,14 @@
 # UBUNTU-SETUP-101
 Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :+1:
 
+## Table des matières
+
+- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-à-faire-après-avoir-installé-ubuntu-1810)
+- [Sublime Text 3 :heart:](#sublime-text-3-heart)
+- [Git 101](#git-101)
+- [Configurer un LAMP](#configurer-un-lamp)
+
+
 ## Les choses à faire après avoir installé Ubuntu 18.10
 
 - Mettre à jour le système
@@ -26,7 +34,7 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ## Sublime Text 3 :heart:
 
-__The best of the best of the best. I'm tellin' you man__
+__The best of the best of the best. I'm tellin' you man.__
 OK, tout d'abord il faut ajouter le paquet dans le 'dev channel apt' de Ubuntu
 ```bash
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -140,3 +148,14 @@ git remote add origin https://github.com/NDOY3M4N/UBUNTU-SETUP-101.git # Connexi
 git push -u origin master # LOCAL vers SERVEUR GITHUB
 git pull -u origin master # SERVEUR GITHUB vers LOCAL
 ```
+
+## Configurer un LAMP
+
+LAMP est l'acronyme de Linux Apache MySQL PHP. Pour l'installation ? Easy
+```bash
+sudo apt install apache2
+sudo apt install php7
+sudo apt install mysql-server
+sudo apt install phpmyadmin
+```
+__NB : Il se peut que MySQL pose quelques problèmes, KEEP CALM, YOLO. Suit juste ce lien bruh :arrow_right: [MYSQL](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)__
