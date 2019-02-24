@@ -5,10 +5,10 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 
 <!-- MarkdownTOC -->
 
-- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-a-faire-apres-avoir-installe-ubuntu-1810)
+- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-à-faire-après-avoir-installé-ubuntu-1810)
 - [Sublime Text 3 :heart:](#sublime-text-3-heart)
-    - [Les paquets à installer](#les-paquets-a-installer)
-    - [Les paquets difficiles à installer](#les-paquets-difficiles-a-installer)
+    - [Les paquets à installer](#les-paquets-à-installer)
+    - [Les paquets difficiles à installer](#les-paquets-difficiles-à-installer)
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 
