@@ -3,17 +3,22 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 
 ## Table des matières
 
-- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-à-faire-après-avoir-installé-ubuntu-1810)
+<!-- MarkdownTOC -->
+
+- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-a-faire-apres-avoir-installe-ubuntu-1810)
 - [Sublime Text 3 :heart:](#sublime-text-3-heart)
+    - [Les paquets à installer](#les-paquets-a-installer)
+    - [Les paquets __difficiles__ à installer](#les-paquets-__difficiles__-a-installer)
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 
+<!-- /MarkdownTOC -->
 
 ## Les choses à faire après avoir installé Ubuntu 18.10
 
 - Mettre à jour le système
 
-![alt update](img/install_update.png)
+![Update][Update_img]
 
 Yup bro ! Voici la commande pour installer les dernières mises à jours
 ```bash
@@ -21,12 +26,12 @@ sudo apt  update && sudo apt upgrade
 ```
 - Installer les codecs vidéos
 
-![alt codecs](img/codecs.png)
+![Codecs][Codecs_img]
 
 Si tu as oublié d'installer les codecs comme le montre la capture ci-dessous, pas de panique car vous pouvez les installer grâce à ce lien :arrow_right: [CODECS](apt://ubuntu-restricted-extras) :arrow_left:
 - Afficher le niveau de la batterie
 
-![alt battery_level](img/battery_info.png)
+![Battery_level][Battery_img]
 
 Ok bruh! Si tu veux afficher le niveau de la batterie (pourcentage), rien de plus simple. Il suffit juste de taper cette commande dans votre terminal :arrow_down:
 ```bash
@@ -66,7 +71,7 @@ Yup dans cette section je montre comment installer ces paquets qui peuvent vraim
 Pour créer un raccourci-clavier afin de visualiser l'apercu Markdown, rien de plus simple
 Preferences -> Key Bindings
 ```json
-{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} }
+{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
 ```
 - __Predawn (Color Theme) & Material Theme(Theme)__
 
@@ -159,4 +164,9 @@ sudo apt install php7
 sudo apt install mysql-server
 sudo apt install phpmyadmin
 ```
-__NB : Il se peut que MySQL pose quelques problèmes, KEEP CALM, YOLO. Suit juste ce lien bruh :arrow_right: [MYSQL](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux)__
+__NB : Il se peut que MySQL pose quelques problèmes, KEEP CALM, YOLO. Suit juste ce lien bruh :arrow_right: [MYSQL](https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux).__
+
+[Update_img]: img/install_update.png
+[Codecs_img]: img/codecs.png
+[Battery_img]: img/battery_info.png
+
