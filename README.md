@@ -8,7 +8,7 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 - [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-a-faire-apres-avoir-installe-ubuntu-1810)
 - [Sublime Text 3 :heart:](#sublime-text-3-heart)
     - [Les paquets à installer](#les-paquets-a-installer)
-    - [Les paquets __difficiles__ à installer](#les-paquets-__difficiles__-a-installer)
+    - [Les paquets difficiles à installer](#les-paquets-difficiles-a-installer)
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 
@@ -62,7 +62,7 @@ Liste des paquets à installer :
 - __DocBlockr__
 - __GitGutter__
 
-### Les paquets __difficiles__ à installer
+### Les paquets difficiles à installer
 
 Yup dans cette section je montre comment installer ces paquets qui peuvent vraiment faire mal à la tête aux premiers abords.
 
@@ -130,8 +130,32 @@ De retour dans Sublime Text 3, on installe le package ```Anaconda```. Dans les p
     }
 }
 ```
-
 Voilà c'est terminé. Feel the power of the __ANACONDA__
+
+- __View in Browser__
+
+Permet de visualiser le résultat d'un code PHP (par exemple) sur votre navigateur. Après installation du paquet, il faut donner à Sublime Text l'accès à ```/var/www/html``` grâce à la commande suivante :
+```bash
+sudo chmod -R nom_user_simple:nom_user_simple /var/www/html
+```
+Maintenant il ne reste plus qu'à modifier quelques lignes sur la configuration de notre projet : __Project->Edit Project__
+```json
+{
+    "folders":
+    [
+        {
+            "path": "/var/www/html"
+        }
+    ],
+    "sublime-view-in-browser":
+    {
+        "baseUrl": "http://localhost",
+        "basePath": "/var/www/html"
+    }
+}
+```
+Pour afficher votre code sur le navigateur, il suffit juste de taper la manip suivante ```ctrl+alt+v```.  
+And now YOU are ready to go or fly. Fly little bird, fly. Buzz little bee, buzz.
 
 ## Git 101
 
