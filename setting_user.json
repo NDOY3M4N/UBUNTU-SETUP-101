@@ -30,7 +30,7 @@
         "MarkdownEditing",
         "Vintage"
     ],
-    "translate_tabs_to_spaces": true
+    "translate_tabs_to_spaces": true,
     "line_padding_bottom": 2,
     "line_padding_top": 2,
     "margin": 0,
