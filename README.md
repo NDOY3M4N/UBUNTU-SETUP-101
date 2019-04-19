@@ -1,6 +1,12 @@
 # UBUNTU-SETUP-101
 Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :+1:
 
+## Contenu à ajouter
+
+- [ ] Configuration de mon GRUB
+- [ ] Confiration de mon terminal
+- [x] Rock'n'roll
+
 ## Table des matières
 
 <!-- MarkdownTOC -->
