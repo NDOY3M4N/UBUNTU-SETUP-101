@@ -5,10 +5,10 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 
 <!-- MarkdownTOC -->
 
-- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-a-faire-apres-avoir-installe-ubuntu-1810)
+- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-à-faire-après-avoir-installé-ubuntu-1810)
 - [Sublime Text 3 :heart:](#sublime-text-3-heart)
-    - [Les paquets à installer](#les-paquets-a-installer)
-    - [Les paquets difficiles à installer](#les-paquets-difficiles-a-installer)
+    - [Les paquets faciles à installer :trollface:](#les-paquets-faciles-à-installer-trollface)
+    - [Les paquets difficiles à installer :rage3:](#les-paquets-difficiles-à-installer-rage3)
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 
@@ -53,7 +53,7 @@ sudo apt-get update
 sudo apt-get install sublime-text
 ```
 
-### Les paquets à installer
+### Les paquets faciles à installer :trollface:
 
 Rappel : Si par hasard tu as oublié comment on fait (weird flex, but ok) ; les paquets sont à installer dans le Package Control de Sublime Text. 
 
@@ -66,7 +66,7 @@ Liste des paquets à installer :
 - __Terminus__
 - __Material Theme__
 
-### Les paquets difficiles à installer
+### Les paquets difficiles à installer :rage3:
 
 Yup dans cette section je montre comment installer ces paquets qui peuvent vraiment faire mal à la tête aux premiers abords.
 
