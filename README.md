@@ -1,9 +1,9 @@
 # UBUNTU-SETUP-101
-Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :+1:
+Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :+1: :peace: :love: :+:
 
 ## Contenu à ajouter
 
-- [ ] Configuration de mon GRUB
+- [x] Configuration de mon GRUB
 - [ ] Confiration de mon terminal
 - [x] Rock'n'roll
 
@@ -11,10 +11,10 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 
 <!-- MarkdownTOC -->
 
-- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-%C3%A0-faire-apr%C3%A8s-avoir-install%C3%A9-ubuntu-1810)
+- [Les choses à faire après avoir installé Ubuntu 18.10](#les-choses-à-faire-après-avoir-installé-ubuntu-1810)
 - [Sublime Text 3 :heart:](#sublime-text-3-heart)
-    - [Les paquets faciles à installer :trollface:](#les-paquets-faciles-%C3%A0-installer-trollface)
-    - [Les paquets difficiles à installer :rage3:](#les-paquets-difficiles-%C3%A0-installer-rage3)
+    - [Les paquets faciles à installer :trollface:](#les-paquets-faciles-à-installer-trollface)
+    - [Les paquets difficiles à installer :rage3:](#les-paquets-difficiles-à-installer-rage3)
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 
@@ -78,10 +78,29 @@ Yup dans cette section je montre comment installer ces paquets qui peuvent vraim
 
 - __Markdown Preview__
 
-Pour créer un raccourci-clavier afin de visualiser l'apercu Markdown, rien de plus simple
-Preferences -> Key Bindings
+Pour créer un raccourci-clavier afin de visualiser l'apercu Markdown, rien de plus simple. Il suffit juste de coller ce code dans le fichier
+Preferences -> Key Bindings (dans la partie pour User)
 ```json
-{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+[
+    {
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args": {"target": "browser", "parser":"markdown"}
+    }
+]
+```
+- __MarkdownTOC__
+
+Ce plugin permet de générer une table de matière pour nos fichiers markdown. Donc après installation du plugin, tu vas dans Preferences -> Package Settings -> MarkdownTOC -> Settings-User
+```json
+{
+  "defaults": {
+    "autolink": true,
+    "uri_encoding": false,
+    "markdown_preview": false
+  }
+}
+
 ```
 - __Predawn (Color Theme) & Material Theme(Theme)__
 
