@@ -1,5 +1,5 @@
 # UBUNTU-SETUP-101
-Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :+1: :peace: :love: :+:
+Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :v: :heart: :heavy_plus_sign:
 
 ## Contenu à ajouter
 
