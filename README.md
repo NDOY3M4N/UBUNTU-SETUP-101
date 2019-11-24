@@ -5,6 +5,7 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 
 - [x] Configuration de mon GRUB
 - [ ] Confiration de mon terminal
+- [ ] Configuration de mon theme Sweet Dark
 - [x] Rock'n'roll
 
 ## Table des matières
