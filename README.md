@@ -20,6 +20,7 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 - [Configurer Neovim](#configurer-neovim)
+- [Configuration de mon terminal](#configuration-de-mon-terminal)
 
 <!-- /MarkdownTOC -->
 
@@ -324,7 +325,13 @@ Après avoir enregistrer et fermer le fichier, on lance nvim et on y tape la com
 ```
 Cela va installer les plugins qui se trouvent dans notre fichier de configration.
 
+## Configuration de mon terminal
+
+Pour l'instant va sur ces liens
+- https://www.youtube.com/watch?v=s-9wo2v3tsk
+- https://www.youtube.com/watch?v=iwH1XqVjZOE
+- https://www.youtube.com/watch?v=UsKd9Y42Mo0
+
 [Update_img]: img/install_update.png
 [Codecs_img]: img/codecs.png
 [Battery_img]: img/battery_info.png
-
