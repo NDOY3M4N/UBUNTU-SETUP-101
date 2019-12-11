@@ -174,7 +174,7 @@ Voilà c'est terminé. Feel the power of the __ANACONDA__
 
 Permet de visualiser le résultat d'un code PHP (par exemple) sur votre navigateur. Après installation du paquet, il faut donner à Sublime Text l'accès à ```/var/www/html``` grâce à la commande suivante :
 ```bash
-sudo chmod -R nom_user_simple:nom_user_simple /var/www/html
+sudo chown -R nom_user_simple:nom_user_simple /var/www/html
 ```
 Maintenant il ne reste plus qu'à modifier quelques lignes sur la configuration de notre projet : __Project->Edit Project__
 ```json
