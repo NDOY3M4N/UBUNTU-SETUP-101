@@ -1,14 +1,6 @@
 # UBUNTU-SETUP-101
 Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon Ubuntu :v: :heart: :heavy_plus_sign:
 
-## Contenu à ajouter
-
-- [x] Configuration de mon GRUB
-- [ ] Confiration de mon terminal
-- [ ] Configuration de mon theme Sweet Dark
-- [x] Configuration de neovim
-- [x] Rock'n'roll
-
 ## Table des matières
 
 <!-- MarkdownTOC -->
@@ -20,7 +12,6 @@ Ok, let's go! Ce répo va me permettre de me rappeler de la configuration de mon
 - [Git 101](#git-101)
 - [Configurer un LAMP](#configurer-un-lamp)
 - [Configurer Neovim](#configurer-neovim)
-- [Configuration de mon terminal](#configuration-de-mon-terminal)
 
 <!-- /MarkdownTOC -->
 
@@ -38,12 +29,12 @@ sudo apt  update && sudo apt upgrade
 
 ![Codecs][Codecs_img]
 
-Si tu as oublié d'installer les codecs comme le montre la capture ci-dessous, pas de panique car vous pouvez les installer grâce à ce lien :arrow_right: [CODECS](apt://ubuntu-restricted-extras) :arrow_left:
+Si tu as oublié d'installer les codecs comme le montre la capture ci-dessous, pas de panique car tu peux les installer grâce à ce lien :arrow_right: [CODECS](apt://ubuntu-restricted-extras) :arrow_left:
 - Afficher le niveau de la batterie
 
 ![Battery_level][Battery_img]
 
-Ok bruh! Si tu veux afficher le niveau de la batterie (pourcentage), rien de plus simple. Il suffit juste de taper cette commande dans votre terminal :arrow_down:
+Ok bruh! Si tu veux afficher le niveau de la batterie (pourcentage), rien de plus simple. Il suffit juste de taper cette commande dans ton terminal :arrow_down:
 ```bash
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 ```
@@ -65,7 +56,7 @@ sudo apt-get install sublime-text
 
 ### Les paquets faciles à installer :trollface:
 
-Rappel : Si par hasard tu as oublié comment on fait (weird flex, but ok) ; les paquets sont à installer dans le Package Control de Sublime Text. 
+Rappel : Si par hasard tu as oublié comment on fait (I'm not judging you) ; les paquets sont à installer dans le Package Control de Sublime Text. 
 
 Liste des paquets à installer :
 - __BracketHighlighter__
@@ -117,7 +108,7 @@ Ce plugin permet de générer une table de matière pour nos fichiers markdown. 
 
 - __SublimeLinter__
 
-Permet de vérifier si notre code n'a pas d'erreurs (NB : tu auras besoin d'installer nodejs & pear).  
+Permet de vérifier si notre code n'a pas d'erreurs (NB : tu auras besoin d'installer npm & pear (ou composer)).  
 
 | Nom du paquet | Description | Pré-requis |
 |    :---       |   :---:     |   ---:     |
@@ -194,6 +185,8 @@ Maintenant il ne reste plus qu'à modifier quelques lignes sur la configuration 
 ```
 Pour afficher votre code sur le navigateur, il suffit juste de taper la manip suivante ```ctrl+alt+v```.  
 And now YOU are ready to go or fly. Fly little bird, fly. Buzz little bee, buzz.
+
+**NB** : Si par contre t'as la flemme d'installer ce plugin juste pour afficher ton code sur le naviguateur, tu peux toujours démarrer un mini-server php avec la commande `php -S <adresse>:<port>`. Tu spécifies juste une adresse (par exple localhost et un numéro de port)
 
 ## Git 101
 
@@ -324,14 +317,3 @@ Après avoir enregistrer et fermer le fichier, on lance nvim et on y tape la com
 :PlugInstall
 ```
 Cela va installer les plugins qui se trouvent dans notre fichier de configration.
-
-## Configuration de mon terminal
-
-Pour l'instant va sur ces liens
-- https://www.youtube.com/watch?v=s-9wo2v3tsk
-- https://www.youtube.com/watch?v=iwH1XqVjZOE
-- https://www.youtube.com/watch?v=UsKd9Y42Mo0
-
-[Update_img]: img/install_update.png
-[Codecs_img]: img/codecs.png
-[Battery_img]: img/battery_info.png
